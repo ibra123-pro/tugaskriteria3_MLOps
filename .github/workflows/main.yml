@@ -73,6 +73,6 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: ./Workflow-CI/MLProject/Baseline_Model_CICD
+          context: ./Baseline_Model_CICD
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/umkm-pondokgede-model:latest
