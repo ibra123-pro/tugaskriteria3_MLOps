@@ -40,7 +40,7 @@ jobs:
       # 4. Jalankan MLflow Project di dalam sub-folder pilihanmu
       - name: Run MLflow Project
         run: |
-          mlflow run . --env-manager=local
+          mlflow run ./MLProject --env-manager=local
       # 5. Amankan dan Simpan Hasil Log Eksperimen (mlruns) ke GitHub
       - name: Get latest MLflow run_id
         env:
