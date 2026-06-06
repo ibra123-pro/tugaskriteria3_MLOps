@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/tugaskriteria3_MLOps/tugaskriteria3_MLOps/mlruns/847288441135886294/54814b9d9c19447da2b64524266e4a8b/artifacts
+end_time: 1780715199614
+entry_point_name: ''
+experiment_id: '847288441135886294'
+lifecycle_stage: active
+run_id: 54814b9d9c19447da2b64524266e4a8b
+run_name: stately-fly-407
+run_uuid: 54814b9d9c19447da2b64524266e4a8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780715187453
+status: 3
+tags: []
+user_id: runner
