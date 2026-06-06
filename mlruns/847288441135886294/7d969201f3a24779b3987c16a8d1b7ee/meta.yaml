@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/tugaskriteria3_MLOps/tugaskriteria3_MLOps/mlruns/847288441135886294/7d969201f3a24779b3987c16a8d1b7ee/artifacts
+end_time: 1780716612710
+entry_point_name: ''
+experiment_id: '847288441135886294'
+lifecycle_stage: active
+run_id: 7d969201f3a24779b3987c16a8d1b7ee
+run_name: fun-crow-383
+run_uuid: 7d969201f3a24779b3987c16a8d1b7ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780716600356
+status: 3
+tags: []
+user_id: runner
