@@ -1,0 +1,13 @@
+name: UMKM_Pondok_Gede_Modelling_Pipeline_CICD
+
+environment:
+  conda_env: conda.yaml
+
+entry_points:
+  # Entry point untuk baseline model (modelling.py)
+  main:
+    command: "python modelling.py"
+
+  # Entry point untuk hyperparameter tuning (modelling_tuning.py)
+  tuning:
+    command: "python modelling_tuning.py"
