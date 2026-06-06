@@ -1,0 +1,38 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.19.0
+model_size_bytes: 51537077
+model_uuid: a2241de9bd0c4266827c57148f97b8ab
+run_id: 303bc80aacb0420986b26472b7acab04
+signature:
+  inputs: '[{"type": "double", "name": "Jumlah_Terjual", "required": true}, {"type":
+    "double", "name": "Harga_Satuan", "required": true}, {"type": "long", "name":
+    "Tahun", "required": true}, {"type": "long", "name": "Bulan", "required": true},
+    {"type": "long", "name": "Hari", "required": true}, {"type": "boolean", "name":
+    "Kategori_Makanan", "required": true}, {"type": "boolean", "name": "Kategori_Minuman",
+    "required": true}, {"type": "boolean", "name": "Kategori_Snack", "required": true},
+    {"type": "boolean", "name": "Metode_Pembayaran_E-Wallet", "required": true}, {"type":
+    "boolean", "name": "Metode_Pembayaran_QRIS", "required": true}, {"type": "boolean",
+    "name": "Metode_Pembayaran_Transfer Bank", "required": true}, {"type": "boolean",
+    "name": "Channel_Penjualan_Offline Store", "required": true}, {"type": "boolean",
+    "name": "Channel_Penjualan_Shopee", "required": true}, {"type": "boolean", "name":
+    "Channel_Penjualan_Tokopedia", "required": true}, {"type": "boolean", "name":
+    "Channel_Penjualan_WhatsApp", "required": true}, {"type": "boolean", "name": "Kategori_Volume_Sedang",
+    "required": true}, {"type": "boolean", "name": "Kategori_Volume_Banyak", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2026-06-06 03:25:15.440114'

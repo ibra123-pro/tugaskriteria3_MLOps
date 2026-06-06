@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/tugaskriteria3_MLOps/tugaskriteria3_MLOps/mlruns/847288441135886294/303bc80aacb0420986b26472b7acab04/artifacts
+end_time: 1780716322844
+entry_point_name: ''
+experiment_id: '847288441135886294'
+lifecycle_stage: active
+run_id: 303bc80aacb0420986b26472b7acab04
+run_name: gaudy-wren-96
+run_uuid: 303bc80aacb0420986b26472b7acab04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780716310350
+status: 3
+tags: []
+user_id: runner

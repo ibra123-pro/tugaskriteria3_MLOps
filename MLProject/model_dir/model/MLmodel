@@ -1,4 +1,3 @@
-artifact_path: model
 flavors:
   python_function:
     env:
@@ -12,27 +11,8 @@ flavors:
     code: null
     pickled_model: model.pkl
     serialization_format: cloudpickle
-    sklearn_version: 1.9.0
+    sklearn_version: 1.5.2
 mlflow_version: 2.19.0
-model_size_bytes: 51537061
-model_uuid: e01b72bdf8d84c1db83112fe321710c3
-run_id: 52009a38c5a04fc39f9580898532075f
-signature:
-  inputs: '[{"type": "double", "name": "Jumlah_Terjual", "required": true}, {"type":
-    "double", "name": "Harga_Satuan", "required": true}, {"type": "long", "name":
-    "Tahun", "required": true}, {"type": "long", "name": "Bulan", "required": true},
-    {"type": "long", "name": "Hari", "required": true}, {"type": "boolean", "name":
-    "Kategori_Makanan", "required": true}, {"type": "boolean", "name": "Kategori_Minuman",
-    "required": true}, {"type": "boolean", "name": "Kategori_Snack", "required": true},
-    {"type": "boolean", "name": "Metode_Pembayaran_E-Wallet", "required": true}, {"type":
-    "boolean", "name": "Metode_Pembayaran_QRIS", "required": true}, {"type": "boolean",
-    "name": "Metode_Pembayaran_Transfer Bank", "required": true}, {"type": "boolean",
-    "name": "Channel_Penjualan_Offline Store", "required": true}, {"type": "boolean",
-    "name": "Channel_Penjualan_Shopee", "required": true}, {"type": "boolean", "name":
-    "Channel_Penjualan_Tokopedia", "required": true}, {"type": "boolean", "name":
-    "Channel_Penjualan_WhatsApp", "required": true}, {"type": "boolean", "name": "Kategori_Volume_Sedang",
-    "required": true}, {"type": "boolean", "name": "Kategori_Volume_Banyak", "required":
-    true}]'
-  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
-  params: null
-utc_time_created: '2026-06-05 01:51:31.901616'
+model_size_bytes: 51537129
+model_uuid: a9954dc74a784c3ebc17202b985ba2a3
+utc_time_created: '2026-06-06 03:25:19.122736'
